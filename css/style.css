@@ -5,11 +5,13 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container {
     width: 1200px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 /* header */
@@ -18,7 +20,7 @@ body {
     display: flex;
     justify-content: space-between;
     height: auto;
-}
+    }
     .header-logo {
         padding: 15px 0;
         display: inline-block;
@@ -39,7 +41,7 @@ body {
 .navbar {
     height: auto;
     vertical-align: middle;
-}
+    }
     .navbar a {
         display: inline-block;
         text-decoration: none;
@@ -53,18 +55,20 @@ body {
         }
 /*navbar*/
 /*header bottom*/
-
 .header-bottom {
     background: #f2f0f2;
-    display: flex;
-    justify-content: space-between;
     padding: 15px 0;
     width: 100%;
-}
-    .header-bottom select {
-        background: #f2f0f2;
     }
+    .flex-space-between {
+            display: flex;
+            justify-content: space-between;
+        }
+        .header-bottom select {
+            background: #f2f0f2;
+        }
 /* header bottom */
+/*header*/
 /*main*/
 /*cover*/
 .cover {
@@ -77,53 +81,99 @@ body {
     min-height: 500px;
     color: #fff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
-    /*padding: 50px 0;*/
-    /*background: url(../img/test.jpeg) center/cover no-repeat;*/
-}
-    .cover-wrapper {
-        max-width: 350px;
-        padding: 50px 25px;
     }
+    .cover-wrapper {
+            max-width: 350px;
+            padding: 50px 25px;
+            padding-right: 0;
+        }
         .cover h1 {
-            margin: 0;
-        }
-        .cover h3 {
-            font-weight: 400;
-            padding: 30px 0;
-            margin: 0;
-            font-size: 1.2em;
-        }
-        .cover-button {
-            display: inline-block;
-            text-decoration: none;
-            color: #fff;
-            background-color: #e04840;
-            border: 1px solid #e04840;
-            padding: 15px 35px;
-        }
+                margin: 0;
+            }
+            .cover h3 {
+                font-weight: 400;
+                padding: 30px 0;
+                margin: 0;
+                font-size: 1.2em;
+            }
+            .cover-button {
+                display: inline-block;
+                text-decoration: none;
+                color: #fff;
+                background-color: #e04840;
+                border: 1px solid #e04840;
+                padding: 15px 35px;
+                transition: 0.5s;
+            }
+                .cover-button:hover {
+                    color: #e04840;
+                    background-color: #fff;
+                    transition: 0.5s;
+                }
 
 /*cover*/
 /*cta*/
+.cta{
+    background: rgb(255, 255, 255);
+    }
+        .cta-wrapper {
+        display: flex;
+        justify-content: space-between;
+        }
+            .cta-btn {
+                margin-top: 30px;
+                margin-left: 15px;
+                margin-right: 15px;
+                width: 20%;
+                display: flex;
+                justify-content: center;
+                 }
 
+                 .cta-btn a {
+                     text-decoration: none;
+                     color: #fff;
+                     width: 100%;
+                     padding: 0 60px;
+                     transition: 0.5s;
+                 }
+                    .cta-btn a:hover {
+                        opacity: 0.8;
+                        transition: 0.5s
+                    }
+                 .cta-btn p {
+                     color: #333c55;
+                     text-align: center;
+                 }
+                .cta-icon {
+                    border-radius: 50%;
+                    width: 96px;
+                    height: 96px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    font-size: 50px;
+                }
 /*cta*/
+/*campaigns*/
+.campaigns {
+
+}
+/*campaigns*/
 /*main*/
-
-
-
-
-
-
-
-
-
 .bold {
     font-weight: 700;
 }
-
 small {
     display: block;
 }
-
 .vertical-middle {
     vertical-align: middle;
+}
+
+.green {
+    color: #00c98a;
+}
+
+.bg-green {
+    background-color: #00c98a;
 }
