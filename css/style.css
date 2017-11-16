@@ -57,7 +57,9 @@ body {
 .header-bottom {
     background: #f2f0f2;
     display: flex;
-    justify-content: space-between
+    justify-content: space-between;
+    padding: 15px 0;
+    width: 100%;
 }
     .header-bottom select {
         background: #f2f0f2;
@@ -66,9 +68,40 @@ body {
 /*main*/
 /*cover*/
 .cover {
+    display: flex;
+    align-items: center;
     background-image: url(../img/cover.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     min-height: 500px;
+    color: #fff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+    /*padding: 50px 0;*/
+    /*background: url(../img/test.jpeg) center/cover no-repeat;*/
 }
+    .cover-wrapper {
+        max-width: 350px;
+        padding: 50px 25px;
+    }
+        .cover h1 {
+            margin: 0;
+        }
+        .cover h3 {
+            font-weight: 400;
+            padding: 30px 0;
+            margin: 0;
+            font-size: 1.2em;
+        }
+        .cover-button {
+            display: inline-block;
+            text-decoration: none;
+            color: #fff;
+            background-color: #e04840;
+            border: 1px solid #e04840;
+            padding: 15px 35px;
+        }
+
 /*cover*/
 /*cta*/
 
