@@ -6,6 +6,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
+    color: #333c55;
 }
 
 .container {
@@ -20,16 +21,18 @@ body {
     display: flex;
     justify-content: space-between;
     height: auto;
+    font-size: 0.8em;
     }
     .header-logo {
         padding: 15px 0;
         display: inline-block;
         vertical-align: middle;
     }
-        .header-logo span {
+        .logo-description {
             display: inline-block;
             padding: 15px 0;
             vertical-align: middle;
+            margin: 0;
         }
             .header-logo img {
                 margin-right: 15px;
@@ -102,8 +105,9 @@ body {
                 color: #fff;
                 background-color: #e04840;
                 border: 1px solid #e04840;
-                padding: 15px 35px;
+                padding: 20px;
                 transition: 0.5s;
+                font-size: 1em;
             }
                 .cover-button:hover {
                     color: #e04840;
@@ -133,7 +137,6 @@ body {
                      text-decoration: none;
                      color: #fff;
                      width: 100%;
-                     padding: 0 60px;
                      transition: 0.5s;
                  }
                     .cta-btn a:hover {
@@ -143,15 +146,19 @@ body {
                  .cta-btn p {
                      color: #333c55;
                      text-align: center;
+                     font-weight: 300;
+                     font-size: 0.9em;
+                     line-height: 1.5em;
                  }
                 .cta-icon {
-                    border-radius: 50%;
+                    border-radius: 48px;
                     width: 96px;
                     height: 96px;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     font-size: 50px;
+                    margin: 0 auto;
                 }
 /*cta*/
 /*campaigns*/
@@ -159,6 +166,46 @@ body {
 
 }
 /*campaigns*/
+/*investors-say"*/
+.investors-say {
+
+    }
+    .investors-say h2 {
+
+    }
+    .investors {
+        align-items: center;
+    }
+        .investor {
+            display: inline-block;
+            min-width: 49%;
+            padding-bottom: 33px;
+        }
+            #lost{
+                position: relative;
+                top: 50px;
+            }
+            .avatar {
+                height: 80px;
+                display: inline-block;
+                vertical-align: top;
+            }
+                .avatar img {
+                    border-radius: 500px;
+                }
+            .statement {
+                display: inline-block;
+                max-width: 400px;
+            }   
+                .statement p{
+                    padding-left: 10px;
+                    margin: 0;
+                }
+            .name {
+                margin-left: 90px;
+                font-weight: 700;
+            }
+/*investors-say"*/
 /*main*/
 .bold {
     font-weight: 700;
