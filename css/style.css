@@ -7,6 +7,7 @@ body {
     padding: 0;
     font-family: 'Montserrat', sans-serif;
     color: #333c55;
+    font-size: 14px;
 }
 
 .container {
@@ -23,7 +24,6 @@ img {
     display: flex;
     justify-content: space-between;
     height: auto;
-    font-size: 0.8em;
     }
     .header-logo {
         padding: 15px 0;
@@ -106,9 +106,10 @@ img {
                 text-decoration: none;
                 background-color: #e04840;
                 border: 1px solid #e04840;
-                padding: 20px;
+                padding: 15px 20px;
                 transition: 0.5s;
-                font-size: 1em;
+                font-size: 1.2em;
+                font-weight: 500;
             }
                 .cover-button:hover {
                     color: #e04840;
@@ -310,10 +311,11 @@ img {
                 .news-data i {
                     display: inline-block;
                     color: #00c98a;
+                    line-height: 1em;
                 }
                 .news-data p {
                     line-height: 1.5em;
-                    font-weight: 300;s
+                    font-weight: 300;
                 }
                 .news-date a, .news-data p a  {
                     color: #00c98a;
@@ -328,6 +330,7 @@ img {
                 .news-data small {
                     display: inline-block;
                     font-weight: 300;
+                    margin-top: 5px;
                 }
 /*campaigns*/
 /*investors-say"*/
@@ -349,7 +352,6 @@ img {
             padding-bottom: 33px;
             vertical-align: top;
             line-height: 1.5em;
-            font-size: 0.95em;
         }
             #lost{
                 position: relative;
