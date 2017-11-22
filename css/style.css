@@ -93,12 +93,13 @@ img {
         }
         .cover h1 {
                 margin: 0;
+                font-size: 30px;
             }
             .cover h3 {
                 font-weight: 400;
                 padding: 30px 0;
                 margin: 0;
-                font-size: 1.2em;
+                font-size: 20px;
             }
             .cover-button {
                 display: inline-block;
@@ -165,13 +166,14 @@ img {
 .campaigns {
 
     }
+    .campaigns h3 {
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
     .campaigns i {
         padding-right: 5px;
         font-size: 19px;
-    }
-    .projects{
-
-    }
+        }
         .investmentprojects {
             width: 66%;
             display: inline-block;
@@ -229,6 +231,19 @@ img {
                         .article-data {
                             padding: 0 15px;
                         }
+                        .article-data span {
+                            color:#808ca1;
+                        }
+                        .article-data small {
+                            margin-left: 3px;
+                        }
+                        .article-data i {
+                            font-size: 14px;
+                        }
+                        .article-data p {
+                            line-height: 1.5em;
+                            font-weight: 300;
+                        }
                         .article-footer {
                             padding: 0 15px;
                             padding-bottom: 15px;
@@ -242,6 +257,7 @@ img {
                                 width: 150px;
                                 height: 150px;
                                 padding-bottom: 20%;
+                                white-space: nowrap
                             }
                                 .footer-circle p {
                                     margin: 0;
@@ -249,6 +265,7 @@ img {
                                     top: 50%;
                                     left: 50%;
                                     transform: translate(-50%,-50%);
+                                    text-align: center;
                                 }
                             .footer-data {
                                 display: inline-block;
@@ -256,22 +273,22 @@ img {
                                 height: 170px;
                                 padding: 30px 10px;
                                 padding-left: 20px;
+                                white-space: nowrap
                             }
-            /*.ended {
-                max-width: 49%;
-                margin-bottom: 20px;
-                display: inline-block;
-            }
-            .ended a {
-                text-decoration: none;
-            }*/
+                            .footer-data b {
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
             .article-footer-ended {
                 padding: 15px;
                 display: flex;
                 justify-content: space-between;
                 background-color: #f2f0f2;
             }
-
+            .article-footer-ended b{
+                font-size: 1.3em;
+                font-weight: 500;
+            }
             .news {
                 display: inline-block;
                 max-width: 30%;
@@ -294,8 +311,13 @@ img {
                     display: inline-block;
                     color: #00c98a;
                 }
+                .news-data p {
+                    line-height: 1.5em;
+                    font-weight: 300;
+                }
                 .news-date a, .news-data p a  {
                     color: #00c98a;
+                    font-weight: 500;
                 }
                 .news-date a:hover, .news-data p a:hover {
                     text-decoration: underline;
@@ -305,6 +327,7 @@ img {
                 }
                 .news-data small {
                     display: inline-block;
+                    font-weight: 300;
                 }
 /*campaigns*/
 /*investors-say"*/
@@ -312,9 +335,10 @@ img {
     padding: 30px 0;
     }
     .investors-say h2 {
-        font-weight: 400;
-        font-size: 40px;
+        font-weight: 300;
+        font-size: 45px;
         padding: 30px 0;
+        margin-left: 15px;
     }
     .investors {
         align-items: center;
@@ -324,6 +348,8 @@ img {
             min-width: 49%;
             padding-bottom: 33px;
             vertical-align: top;
+            line-height: 1.5em;
+            font-size: 0.95em;
         }
             #lost{
                 position: relative;
@@ -348,7 +374,7 @@ img {
                 }
             .name {
                 margin-left: 90px;
-                font-weight: 700;
+                font-weight: 500;
             }
 /*investors-say"*/
 /*main*/
@@ -453,14 +479,14 @@ small {
     background-color: #333c55;
 }
 
-.white {
+.text-white {
     color: #fff;
 }
 
 .bg-white {
     background-color: #fff;
 }
-
+/* 
 @media only screen and (max-width:1200px) {
     .main-header {
         width: 1200px;
@@ -473,26 +499,56 @@ small {
 @media only screen and (max-width: 960px) {
     .container {
         width: 960px;
-    }
-    .header-bottom {
-        display: none;
+        padding: 0;
     }
     .header-logo {
         display: block;
         width: 100%;
-        text-align: center;
         height: 45px;
+        border-bottom: 3px solid #333c55;
+        text-align: left;
     }
     .header-logo img, .header-logo p {
         max-width: 80px;
-        vertical-align: middle;
+        vertical-align: top;
+    }
+    .main-header {
+        border-bottom: 0.1em solid #808ca1;
+        width: 100%;
+    }
+    .header-top {
+        display: block;
     }
     .navbar {
-        display: block;s
-    }
-    .navbar a {
         display: block;
         width: 100%;
-        text-align: center;
     }
-}
+
+    .navbar a {
+        display: block;
+        text-align: center;
+        border-bottom: 1px solid #333c55;
+        color: #333c55;
+    }
+    .navbar a:hover {
+        color: #fff;
+        background-color: #333c55;
+        border-bottom-color: #fff;
+    }
+    small.bold {
+        font-weight: 400;
+    }
+    small {
+        font-size: 100%;
+    }
+    .header-bottom {
+        display: none;
+    }
+    .cta-wrapper {
+        display: block;
+    }
+    .cta-btn {
+        width: 45%;
+        display: inline-block;
+    }
+} */
