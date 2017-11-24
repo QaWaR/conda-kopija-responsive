@@ -8,7 +8,7 @@
     <title>CONDA Crowdinvesting | CONDA Europe</title>
     <link href="assets/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
     <link rel="icon" href="https://www.conda.eu/wp-content/themes/conda/frontend/images/favicon.ico" type="image/x-icon" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet" type="text/css"/>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
 </head>
@@ -20,9 +20,14 @@
         <div class="main-header">
             <div class="container">
                 <div class="header-top"><!--header-top-->
-                    <div class="header-logo">
-                        <img src="img/conda.png"/>
-                        <p class="logo-description">CROWD<b>INVESTING</b></p>
+                    <div class="responsive-nav">
+                        <div class="header-logo">
+                            <img src="img/conda.png"/>
+                            <p class="logo-description">CROWD<b>INVESTING</b></p>
+                        </div>
+                        <div class="sm-navbar">
+                            <i class="fa fa-bars" aria-hidden="true"></i>
+                        </div>
                     </div>
                     <nav class="navbar"><!--nav-->
                         <a class="blue" href="#"><small class="bold">PROJECTS TO</small>DISCOVER</a>
@@ -59,6 +64,9 @@
     <!--main-->
     <main>
         <section class="cover text-white">
+            <div class="sm-image">
+                <img src="img/cover.jpg"/>
+            </div>
             <div class="container">
                 <div class="cover-wrapper">
                     <div><h1>Welcome to CONDA Crowdinvesting!</h1></div>
@@ -117,237 +125,239 @@
             <div class="container">
                 <div class="investmentprojects">
                     <h2>Investmentprojects</h2>
-                    <div class="in-progress">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-content">
-                                    <div class="article-image">
-                                        <img src="campaign-imgs/coolgiants.jpg"/>
-                                        <div class="eyecatcher bg-green">
-                                            <span>SME</span>
+                    <div class="row">
+                        <div class="in-progress">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-content">
+                                        <div class="article-image">
+                                            <img src="campaign-imgs/coolgiants.jpg"/>
+                                            <div class="badge bg-green">
+                                                <span>SME</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="article-status">
-                                        <p class="bg-blue">31 DAYS REMAINING</p>
-                                        <div class="status-img-wrapper">
-                                            <img src="campaign-icons/rock-on.jpg"/>
+                                        <div class="article-status bg-blue">
+                                            <p>31 DAYS REMAINING</p>
+                                            <div class="status-img-wrapper">
+                                                <img src="campaign-icons/rock-on.jpg"/>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="article-data">
-                                        <h3>coolGiants)®AG</h3>
-                                        <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Bremen, Deutschland</small></span>
-                                        <p>NEW SME: for over 25 years cooking and cooling have been the passion of coolGiants. Invest now!</p>
-                                    </div>
-                                    <div class="article-footer">
-                                        <div class="footer-circle"><p><b>91.400 €</b><br>85 Investors<br>183%</p></div>
-                                        <div class="footer-data"><p><b>50,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>250,000<sup>€</sup></b><small>Total amount</small></p></div>
+                                        <div class="article-data">
+                                            <h3>coolGiants)®AG</h3>
+                                            <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Bremen, Deutschland</small></span>
+                                            <p>NEW SME: for over 25 years cooking and cooling have been the passion of coolGiants. Invest now!</p>
+                                        </div>
+                                        <div class="article-footer">
+                                            <div class="footer-circle"><p><b>91.400 €</b><br>85 Investors<br>183%</p></div>
+                                            <div class="footer-data"><p><b>50,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>250,000<sup>€</sup></b><small>Total amount</small></p></div>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="in-progress">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-content">
-                                    <div class="article-image">
-                                        <img src="campaign-imgs/content-exchange.jpg"/>
+                            </a>
+                        </div>
+                        <div class="in-progress">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-content">
+                                        <div class="article-image">
+                                            <img src="campaign-imgs/content-exchange.jpg"/>
+                                        </div>
+                                        <div class="article-status bg-blue">
+                                            <p>01 DAYS REMAINING</p>
+                                            <div class="status-img-wrapper">
+                                                <img src="campaign-icons/content-exchange.jpg"/>
+                                            </div>
+                                        </div>
+                                        <div class="article-data">
+                                            <h3>Content Exchange</h3>
+                                            <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Ljubljana, Slovenia</small></span>
+                                            <p>BigData is the next big thing - We now want to over you a once in a lifetime chance to hop on to the BigData train!</p>
+                                        </div>
+                                        <div class="article-footer">
+                                            <div class="footer-circle"><p><b>298.600 €</b><br>74 Investors<br>597%</p></div>
+                                            <div class="footer-data"><p><b>50,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>500,000<sup>€</sup></b><small>Total amount</small></p></div>
+                                        </div>
                                     </div>
-                                    <div class="article-status">
-                                        <p class="bg-blue">01 DAYS REMAINING</p>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="in-progress">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-content">
+                                        <div class="article-image">
+                                            <img src="campaign-imgs/lieferschotte.jpg"/>
+                                        </div>
+                                        <div class="article-status bg-blue">
+                                            <p>58 DAYS REMAINING</p>
+                                            <div class="status-img-wrapper">
+                                                <img src="campaign-icons/liefer.png"/>
+                                            </div>
+                                        </div>
+                                        <div class="article-data">
+                                            <h3>Lieferschotte</h3>
+                                            <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Wiesbaden, Deutschland</small></span>
+                                            <p>Lieferschotte offers a unique, promising and extensible platform solution and combines it with a proven business model. And experienced team backs up the company with know-how, resources, and a sales network. The big adventage: You benefit from the success of a first mover in a growing market!</p>
+                                        </div>
+                                        <div class="article-footer">
+                                            <div class="footer-circle"><p><b>113.700 €</b><br>127 Investors<br>114%</p></div>
+                                            <div class="footer-data"><p><b>100,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>250,000<sup>€</sup></b><small>Total amount</small></p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="in-progress">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-content">
+                                        <div class="article-image">
+                                            <img src="campaign-imgs/sycube.png"/>
+                                        </div>
+                                        <div class="article-status bg-blue">
+                                            <p>08 DAYS REMAINING</p>
+                                            <div class="status-img-wrapper">
+                                                <img src="campaign-icons/sycube.png"/>
+                                            </div>
+                                        </div>
+                                        <div class="article-data">
+                                            <h3>Sycube</h3>
+                                            <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Wien, Osterreich</small></span>
+                                            <p>With our patented, fully automated rental system we are offering sustainable mobility solutions since 2003. Benefit from our long term experience in the area of rentable (e)mobility and become part of the future growth market.</p>
+                                        </div>
+                                        <div class="article-footer">
+                                            <div class="footer-circle"><p><b>163.300 €</b><br>138 Investors<br>331%</p></div>
+                                            <div class="footer-data"><p><b>50,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>500,000<sup>€</sup></b><small>Total amount</small></p></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="ended">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-image">
+                                        <img src="campaign-imgs/lct-tech.jpg"/>
+                                    </div>
+                                    <div class="article-status bg-green">
+                                        <p>SUCCESSFULLY FINANCED</p>
                                         <div class="status-img-wrapper">
-                                            <img src="campaign-icons/content-exchange.jpg"/>
+                                            <img src="campaign-icons/lct.jpg"/>
                                         </div>
                                     </div>
                                     <div class="article-data">
-                                        <h3>Content Exchange</h3>
+                                        <h3>LCT light&concrete technology</h3>
+                                        <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Gleisdorf, Austria</small></span>
+                                        <p>Invest now in the Austrian world market leader in translucent concrete!</p>
+                                    </div>
+                                    <div class="article-footer-ended">
+                                        <div><b>655</b><sup>%</sup><br><small>financed</small></div>
+                                        <div><b>654,500</b><sup>€</sup><br><small>invested</small></div>
+                                        <div><b>599</b><br><small>investors</small></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="ended">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-image">
+                                        <img src="campaign-imgs/tofu.png"/>
+                                    </div>
+                                    <div class="article-status bg-green">
+                                        <p>SUCCESSFULLY FINANCED</p>
+                                        <div class="status-img-wrapper">
+                                            <img src="campaign-icons/tofu.png"/>
+                                        </div>
+                                    </div>
+                                    <div class="article-data">
+                                        <h3>I LIKE TOFU</h3>
+                                        <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Ajdovščina, Slowenien</small></span>
+                                        <p>I LIKE TOFU sands for more taste. More Diversity. And more Color! 100% Bio! 100% vegan. 100% tasty.</p>
+                                    </div>
+                                    <div class="article-footer-ended">
+                                        <div><b>129</b><sup>%</sup><br><small>financed</small></div>
+                                        <div><b>38,600</b><sup>€</sup><br><small>invested</small></div>
+                                        <div><b>31</b><br><small>investors</small></div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="ended">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-image">
+                                        <img src="campaign-imgs/alpstories.jpg"/>
+                                    </div>
+                                    <div class="article-status bg-green">
+                                        <p>SUCCESSFULLY FINANCED</p>
+                                        <div class="status-img-wrapper">
+                                        <img src="campaign-icons/alpstories.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="article-data">
+                                        <h3>Alpstories</h3>
                                         <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Ljubljana, Slovenia</small></span>
-                                        <p>BigData is the next big thing - We now want to over you a once in a lifetime chance to hop on to the BigData train!</p>
+                                        <p>Your unique skin needs unique beauty products. We are offering 100% tailor-made beauty products made for the individual needs of the customer. Together with you, we will bring idividuality to the European beauty market.</p>
                                     </div>
-                                    <div class="article-footer">
-                                        <div class="footer-circle"><p><b>298.600 €</b><br>74 Investors<br>597%</p></div>
-                                        <div class="footer-data"><p><b>50,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>500,000<sup>€</sup></b><small>Total amount</small></p></div>
+                                    <div class="article-footer-ended">
+                                        <div><b>151</b><sup>%</sup><br><small>financed</small></div>
+                                        <div><b>45.300</b><sup>€</sup><br><small>invested</small></div>
+                                        <div><b>9</b><br><small>investors</small></div>
                                     </div>
                                 </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="in-progress">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-content">
+                            </a>
+                        </div>
+                        <div class="ended">
+                            <a href="#">
+                                <div class="article-wrapper">
                                     <div class="article-image">
-                                        <img src="campaign-imgs/lieferschotte.jpg"/>
+                                        <img src="campaign-imgs/viRaCube.jpg"/>
                                     </div>
-                                    <div class="article-status">
-                                        <p class="bg-blue">58 DAYS REMAINING</p>
+                                    <div class="article-status bg-green">
+                                        <p>SUCCESSFULLY FINANCED</p>
                                         <div class="status-img-wrapper">
-                                            <img src="campaign-icons/liefer.png"/>
+                                        <img src="campaign-icons/viracube.jpg"/>
                                         </div>
                                     </div>
                                     <div class="article-data">
-                                        <h3>Lieferschotte</h3>
-                                        <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Wiesbaden, Deutschland</small></span>
-                                        <p>Lieferschotte offers a unique, promising and extensible platform solution and combines it with a proven business model. And experienced team backs up the company with know-how, resources, and a sales network. The big adventage: You benefit from the success of a first mover in a growing market!</p>
-                                    </div>
-                                    <div class="article-footer">
-                                        <div class="footer-circle"><p><b>113.700 €</b><br>127 Investors<br>114%</p></div>
-                                        <div class="footer-data"><p><b>100,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>250,000<sup>€</sup></b><small>Total amount</small></p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="in-progress">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-content">
-                                    <div class="article-image">
-                                        <img src="campaign-imgs/sycube.png"/>
-                                    </div>
-                                    <div class="article-status">
-                                        <p class="bg-blue">08 DAYS REMAINING</p>
-                                        <div class="status-img-wrapper">
-                                            <img src="campaign-icons/sycube.png"/>
-                                        </div>
-                                    </div>
-                                    <div class="article-data">
-                                        <h3>Sycube</h3>
+                                        <h3>viRaCube</h3>
                                         <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Wien, Osterreich</small></span>
-                                        <p>With our patented, fully automated rental system we are offering sustainable mobility solutions since 2003. Benefit from our long term experience in the area of rentable (e)mobility and become part of the future growth market.</p>
+                                        <p>Your own garden is a place of rest and relaxation - but especially the watering involves a lot of effort. viRaCube is the first, smart, solar-powered, wireless and sustainable watering control for your garden.</p>
                                     </div>
-                                    <div class="article-footer">
-                                        <div class="footer-circle"><p><b>163.300 €</b><br>138 Investors<br>331%</p></div>
-                                        <div class="footer-data"><p><b>50,000<sup>€</sup></b><small>Minimum investment</small></p><p class="grey"><b>500,000<sup>€</sup></b><small>Total amount</small></p></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="ended">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-image">
-                                    <img src="campaign-imgs/lct-tech.jpg"/>
-                                </div>
-                                <div class="article-status">
-                                    <p class="bg-green">SUCCESSFULLY FINANCED</p>
-                                    <div class="status-img-wrapper">
-                                        <img src="campaign-icons/lct.jpg"/>
+                                    <div class="article-footer-ended">
+                                        <div><b>208</b><sup>%</sup><br><small>financed</small></div>
+                                        <div><b>62,500</b><sup>€</sup><br><small>invested</small></div>
+                                        <div><b>56</b><br><small>investors</small></div>
                                     </div>
                                 </div>
-                                <div class="article-data">
-                                    <h3>LCT light&concrete technology</h3>
-                                    <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Gleisdorf, Austria</small></span>
-                                    <p>Invest now in the Austrian world market leader in translucent concrete!</p>
-                                </div>
-                                <div class="article-footer-ended">
-                                    <div><b>655</b><sup>%</sup><br><small>financed</small></div>
-                                    <div><b>654,500</b><sup>€</sup><br><small>invested</small></div>
-                                    <div><b>599</b><br><small>investors</small></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="ended">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-image">
-                                    <img src="campaign-imgs/tofu.png"/>
-                                </div>
-                                <div class="article-status">
-                                    <p class="bg-green">SUCCESSFULLY FINANCED</p>
-                                    <div class="status-img-wrapper">
-                                        <img src="campaign-icons/tofu.png"/>
+                            </a>
+                        </div>
+                        <div class="ended">
+                            <a href="#">
+                                <div class="article-wrapper">
+                                    <div class="article-image">
+                                        <img src="campaign-imgs/COOEE.jpg"/>
+                                    </div>
+                                    <div class="article-status bg-green">
+                                        <p>SUCCESSFULLY FINANCED</p>
+                                        <div class="status-img-wrapper">
+                                        <img src="campaign-icons/cooee.jpg"/>
+                                        </div>
+                                    </div>
+                                    <div class="article-data">
+                                        <h3>COOEE alpin Hotels</h3>
+                                        <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Bad Kleinkirchheim, Austria</small></span>
+                                        <p>Herman Maier and Rainer Schonfelder make holidays in Austria's top notch ski resorts possible for everyone. Two COOEE alpin Hotels are already up and running and offer the proof of success. Become part of COOEE alpin Bad Kleinkirchheim.</p>
+                                    </div>
+                                    <div class="article-footer-ended">
+                                        <div><b>2,408</b><sup>%</sup><br><small>financed</small></div>
+                                        <div><b>1,203,800</b><sup>€</sup><br><small>invested</small></div>
+                                        <div><b>417</b><br><small>investors</small></div>
                                     </div>
                                 </div>
-                                <div class="article-data">
-                                    <h3>I LIKE TOFU</h3>
-                                    <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Ajdovščina, Slowenien</small></span>
-                                    <p>I LIKE TOFU sands for more taste. More Diversity. And more Color! 100% Bio! 100% vegan. 100% tasty.</p>
-                                </div>
-                                <div class="article-footer-ended">
-                                    <div><b>129</b><sup>%</sup><br><small>financed</small></div>
-                                    <div><b>38,600</b><sup>€</sup><br><small>invested</small></div>
-                                    <div><b>31</b><br><small>investors</small></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="ended">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-image">
-                                    <img src="campaign-imgs/alpstories.jpg"/>
-                                </div>
-                                <div class="article-status">
-                                    <p class="bg-green">SUCCESSFULLY FINANCED</p>
-                                    <div class="status-img-wrapper">
-                                    <img src="campaign-icons/alpstories.jpg"/>
-                                    </div>
-                                </div>
-                                <div class="article-data">
-                                    <h3>Alpstories</h3>
-                                    <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Ljubljana, Slovenia</small></span>
-                                    <p>Your unique skin needs unique beauty products. We are offering 100% tailor-made beauty products made for the individual needs of the customer. Together with you, we will bring idividuality to the European beauty market.</p>
-                                </div>
-                                <div class="article-footer-ended">
-                                    <div><b>151</b><sup>%</sup><br><small>financed</small></div>
-                                    <div><b>45.300</b><sup>€</sup><br><small>invested</small></div>
-                                    <div><b>9</b><br><small>investors</small></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="ended">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-image">
-                                    <img src="campaign-imgs/viRaCube.jpg"/>
-                                </div>
-                                <div class="article-status">
-                                    <p class="bg-green">SUCCESSFULLY FINANCED</p>
-                                    <div class="status-img-wrapper">
-                                    <img src="campaign-icons/viracube.jpg"/>
-                                    </div>
-                                </div>
-                                <div class="article-data">
-                                    <h3>viRaCube</h3>
-                                    <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Wien, Osterreich</small></span>
-                                    <p>Your own garden is a place of rest and relaxation - but especially the watering involves a lot of effort. viRaCube is the first, smart, solar-powered, wireless and sustainable watering control for your garden.</p>
-                                </div>
-                                <div class="article-footer-ended">
-                                    <div><b>208</b><sup>%</sup><br><small>financed</small></div>
-                                    <div><b>62,500</b><sup>€</sup><br><small>invested</small></div>
-                                    <div><b>56</b><br><small>investors</small></div>
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div class="ended">
-                        <a href="#">
-                            <div class="article-wrapper">
-                                <div class="article-image">
-                                    <img src="campaign-imgs/COOEE.jpg"/>
-                                </div>
-                                <div class="article-status">
-                                    <p class="bg-green">SUCCESSFULLY FINANCED</p>
-                                    <div class="status-img-wrapper">
-                                    <img src="campaign-icons/cooee.jpg"/>
-                                    </div>
-                                </div>
-                                <div class="article-data">
-                                    <h3>COOEE alpin Hotels</h3>
-                                    <span><small><i class="fa fa-map-marker" aria-hidden="true"></i>Bad Kleinkirchheim, Austria</small></span>
-                                    <p>Herman Maier and Rainer Schonfelder make holidays in Austria's top notch ski resorts possible for everyone. Two COOEE alpin Hotels are already up and running and offer the proof of success. Become part of COOEE alpin Bad Kleinkirchheim.</p>
-                                </div>
-                                <div class="article-footer-ended">
-                                    <div><b>2,408</b><sup>%</sup><br><small>financed</small></div>
-                                    <div><b>1,203,800</b><sup>€</sup><br><small>invested</small></div>
-                                    <div><b>417</b><br><small>investors</small></div>
-                                </div>
-                            </div>
-                        </a>
+                            </a>
+                        </div>
                     </div>
                 </div>
                 <aside class="news">
@@ -358,7 +368,7 @@
                         </div>
                         <div class="news-data">
                             <h3><a href="#">CONDA has reahed €20 million of invested capital!</a></h3>
-                            <div>
+                            <div class="news-date">
                                 <span><i class="fa fa-clock-o" aria-hidden="true"></span></i><small>16. November 2017 by Laura</small>
                             </div>
                             <p>Unbelievable, how time flies! Since its foundation in 2013, CONDA was able to successfully finance 92 projects with 20 million euro! We would like to say THANK YOU to all our projects and investors who have made this big success possible and are looking forward to an exciting future!<a> read more</a></p>
@@ -420,22 +430,22 @@
             <div class="container">
                 <h2>That's what investors say</h2>
                 <div class="investors">
-                    <div class="investor">
+                    <div class="testimonial">
                         <div class="avatar"><img src="investors/niko.jpg"></div>
                         <div class="statement"><p>Privates Kapital muss arbeiten können. Das macht CONDA möglich und zeigt damit, wie Wirtschaft und Finanzierung in Zukunft (auch) funktionieren werden: im eigenverantwortlichen Zusammenwirken von Investoren und Unternehmen.</p></div>
                         <div class="name">NIKO ALM</div>
                     </div>
-                    <div class="investor">
+                    <div class="testimonial">
                         <div class="avatar"><img src="investors/marcus.jpg"></div>
                         <div class="statement"><p>CONDA hat ein umfassendes Experten und Partnernetzwerk und ist daher für mich die sicherste, professionellste und kompetenteste Crowdinvesting-Plattform mit den besten Business-Ideen und sehr hohen langfristigen Rendite-Chancen.</p></div>
                         <div class="name">MARCUS CEH</div>
                     </div>
-                    <div class="investor">
+                    <div class="testimonial">
                         <div class="avatar"><img src="investors/michael.jpg"></div>
                         <div class="statement"><p>Crowdinvesting ist seit geraumer Zeit immer stärker im Kommen, da es sich für viele Geschäftsmodelle, vor allem in B2C Bereich, hervorragend anbietet. Es freut mich wirklich sehr, dass es mit CONDA bei uns ein derart engagiertes Team gibt, das dieses Thema so stark fördert und die Breite trägt!</p></div>
                         <div class="name">MICHAEL ALTRICHTER</div>
                     </div>
-                    <div class="investor">
+                    <div class="testimonial">
                         <div class="avatar"><img src="investors/bernd.jpg"></div>
                         <div class="statement"><p>Für Business Angels stellt sich stets die Frage nach Erfolgspotentialen von Start Ups. Es gibt hier zwar keine signifikanten Muster oder einfache Kochrezepte, aber ein erkennbares Kundenproblem und eine machbare Lösung sind die Basis für jedes Geschäftskonzept. Wenn dann auch noch ein williges und fähiges Team die Lösung umsetzt, sollte sich ein halbwegs risikofreudiger Investor rasch entscheiden, denn auch bei Business Angels herrscht Wettbewerb um die besten Projekte!</p></div>
                         <div class="name">BERND LITZKA</div>
@@ -493,7 +503,7 @@
         </div>
         <div class="footer-partners footer-layout">
             <div class="container">
-                <p>CONDA IS SUPPORTED BY</p>
+                <h4>CONDA IS SUPPORTED BY</h4>
                 <div class="partner-logo-wrapper">             
                     <div class="partner-logo">
                         <a href="#"><img src="supporter-logos/3c.png"/></a>
@@ -511,7 +521,7 @@
                         <img src="supporter-logos/schonherr.png"/></a>
                     </div>
                     <div class="partner-logo">
-                        <a href="#"></a><img src="supporter-logos/tpa.png"/>
+                        <a href="#"><img src="supporter-logos/tpa.png"/></a>
                     </div>
                     <div class="partner-logo">
                         <a href="#"><img src="supporter-logos/vbv.png"/></a>
@@ -527,7 +537,7 @@
         </div>
         <div class="footer-partners footer-layout">
             <div class="container">
-                <p>CONDA IS SPONSORED BY</p>
+                <h4>CONDA IS SPONSORED BY</h4>
                 <div class="partner-logo-wrapper">             
                     <div class="partner-logo">
                         <a href="#"><img src="supporter-logos/whataventure.png"/></a>
@@ -542,10 +552,10 @@
                         <a href="#"><img src="supporter-logos/treibhaus.png"/></a>
                     </div>                 
                     <div class="partner-logo">
-                        <a href="#"><img src="supporter-logos/media4.png"/></a>
+                        <a href="#"><img src="supporter-logos/me4.png"/></a>
                     </div>                 
                     <div class="partner-logo">
-                        <a href="#"><img src="supporter-logos/new-design-university.png"/></a>
+                        <a href="#"><img src="supporter-logos/nd.png"/></a>
                     </div>                 
                     <div class="partner-logo">
                         <a href="#"><img src="supporter-logos/manageers.png"/></a>
@@ -578,7 +588,7 @@
                         <a href="#"><img src="supporter-logos/avco.png"/></a>
                     </div>                 
                     <div class="partner-logo">
-                        <a href="#"><img src="supporter-logos/ac.png"/></a>
+                        <a href="#"><img src="supporter-logos/ac-weiss.png"/></a>
                     </div>                 
                     <div class="partner-logo">
                         <a href="#"><img src="supporter-logos/boyastar.png"/></a>
@@ -594,8 +604,8 @@
         </div>
         <div class="footer-badges footer-layout">
             <div class="container">
-                <div class="partner-logo"><img src="supporter-logos/emblem 1.png"/></div>                 
-                <div class="partner-logo"><img src="supporter-logos/emblem 2.png"/></div>
+                <a href="#"><div class="partner-logo"><img src="supporter-logos/emblem 1.png"/></div></a>
+                <a href="#"><div class="partner-logo"><img src="supporter-logos/emblem 2.png"/></div></a>
             </div>
         </div>
     </footer>
